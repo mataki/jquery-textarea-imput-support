@@ -1,0 +1,20 @@
+= jQuery textarea input support Plugin
+
+jQuery textarea input support plugin is jQuery plugin to make textarea like Twitter or Facebook.
+This plugin is extended from autocomplete of jQueryUI.
+
+== How to use
+
+$('#textarea').textareainputsupport({
+  source: ["@mat_aki", "@interu", "@kuranuki", "@pastaonly", "@maedana"]
+})
+
+== Required plugins
+
+* {jQueryUI autocomplete}[http://jqueryui.com/]
+* {Rangyinputs}[http://code.google.com/p/rangyinputs/]
+
+== Test
+
+rake jasmine:ci
+

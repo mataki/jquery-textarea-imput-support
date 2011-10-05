@@ -1,4 +1,16 @@
+/*
+ * jQuery Textarea Input Support Plugin
+ * https://github.com/mataki/jquery-textarea-imput-support
+ *
+ * Copyright 2011, Akihiro Matsumura
+ * https://blog.mat-aki.net/
+ *
+ * Licensed under the MIT license:
+ * http://creativecommons.org/licenses/MIT/
+ */
+
 /* global jQuery */
+
 (function($) {
   $.widget("ui.textareainputsupport", $.ui.autocomplete.prototype);
 

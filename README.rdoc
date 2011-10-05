@@ -5,9 +5,9 @@ This plugin is extended from autocomplete of jQueryUI.
 
 == Usage
 
-$('#textarea').textareainputsupport({
-  source: ["@mat_aki", "@interu", "@kuranuki", "@pastaonly", "@maedana"]
-})
+  $('#textarea').textareainputsupport({
+    source: ["@mat_aki", "@interu", "@kuranuki", "@pastaonly", "@maedana"]
+  })
 
 == Required plugins
 
@@ -16,7 +16,7 @@ $('#textarea').textareainputsupport({
 
 == Test
 
-rake jasmine:ci
+  rake jasmine:ci
 
 == License
 

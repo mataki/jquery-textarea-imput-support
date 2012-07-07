@@ -11,8 +11,10 @@
   <script src="../public/javascripts/jquery.textarea-input-support.js" type="text/javascript"></script>
   <script type="text/javascript">
     $(function() {
-      var availableTags = ["ActionScript","AppleScript","Asp","BASIC","C","C++","Clojure","COBOL","ColdFusion","Erlang","Fortran",
-        "Groovy","Haskell","Java","JavaScript","Perl","PHP","Python","Ruby","Scala","Scheme"];
+      var availableTags = ["ActionScript","AppleScript","Asp",
+        "BASIC","C","C++","Clojure","COBOL","ColdFusion","Erlang","Fortran",
+        "Groovy","Haskell","Java","JavaScript","Perl","PHP","Python","Ruby",
+        "Scala","Scheme", {label: "an unknown language", value: "Unknown"}];
 
       $('#support1').textareainputsupport({
         source: availableTags
